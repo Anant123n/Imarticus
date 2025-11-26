@@ -12,8 +12,7 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import PdfSummarizer from './pages/PdfSummarizer';
 
-
-import CoursePage from './pages/coursepage.jsx';
+import CoursePage from './pages/CoursePage.jsx';
 
 
 function LandingPage() {
