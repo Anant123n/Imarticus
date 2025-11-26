@@ -16,7 +16,7 @@ const ApplicationSection = () => {
     experience: "",
   });
 
-  // 👉 Handle input change
+  // Handle input change
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -24,7 +24,7 @@ const ApplicationSection = () => {
     });
   };
 
-  // 👉 Save data directly (NO COURSE)
+  // Save data directly (NO COURSE)
   const handleSubmit = async (e) => {
     e.preventDefault();
 
