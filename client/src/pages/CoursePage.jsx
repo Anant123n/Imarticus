@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { PlayCircle, CheckCircle } from "lucide-react";
 
-const API_BASE_URL = "https://imarticusb.onrender.com/api";
+const API_BASE_URL = "https://imarticus-1.onrender.com/api";
 const DUMMY_VIDEO = "https://www.youtube.com/watch?v=3mYVjHTBpS4";
 
 export default function CoursePage() {

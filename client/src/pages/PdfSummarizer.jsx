@@ -34,7 +34,7 @@ export default function PdfSummarizer() {
     setLoading(true);
     try {
       const text = await extractText(file);
-      const res = await axios.post("http://localhost:5000/summarize", {
+      const res = await axios.post("https://imarticus-1.onrender.com/summarize", {
         pdfText: text,
       });
       setSummary(res.data.summary);
